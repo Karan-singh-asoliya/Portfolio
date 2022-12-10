@@ -14,6 +14,10 @@ h1 {
   color: #66bfbf;
 }
 
+h1:hover {
+  color: burlywood;
+}
+
 h3 {
   color: #66bfbf;
   /* text-decoration-line: underline; */
