@@ -1,24 +1,163 @@
 body {
-  background-color: #eaf6f6;
-}
-
-hr {
-  border-style: dotted none none;
-  border-color: gray;
-  border-width: 4px;
-  height: 0px;
-  width: 5%;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* font-size: 2em; */
 }
 
 h1 {
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
   color: #66bfbf;
+  /* line-height: 2; */
 }
 
-h1:hover {
-  color: burlywood;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10ox;
 }
 
 h3 {
-  color: #66bfbf;
-  /* text-decoration-line: underline; */
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+.bottom-container {
+  background-color: #e4f9f5;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 370px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 0px;
+}
+
+a {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /* text-align: left; */
+  line-height: 2;
+}
+
+.dsa {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.oops {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.cpp {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.html {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.iot {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.blender {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.sams {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.pet {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+#loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#wrapperload {
+  width: 700px;
+  height: 100px;
+  /* background-color: #efefef; */
+  overflow: hidden;
+}
+
+#wrapperload .elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: #efefef; */
+}
+
+#wrapperload .elem img {
+  width: 40%;
+}
+
+#wrapperload .elem:nth-child(1) {
+  animation: anim 1.5s cubic-bezier(0.19, 1, 0.22, 1) 1.5s both;
+}
+
+#wrapperload .elem:nth-child(2) {
+  animation: anim 1.5s cubic-bezier(0.19, 1, 0.22, 1) 3s both;
+}
+
+#wrapperload .elem:nth-child(3) {
+  animation: anim 1.5s cubic-bezier(0.19, 1, 0.22, 1) 4.5s both;
+}
+
+@keyframes anim {
+  top {
+    margin-top: -100px;
+  }
 }
