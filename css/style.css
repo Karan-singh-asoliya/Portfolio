@@ -160,9 +160,15 @@ a {
   margin-right: 50px;
 }
 
-/* .btn { */
-/* background: #11cdd4; */
-/* background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+
+
+
+
+/* ---------------------------      Contact me button code at the bottom         -----------------------*/
+
+.btn { */
+background: #11cdd4;
+background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
@@ -175,9 +181,12 @@ a {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-} */
+}
 
-/* 
+
+/* ----------------------------     hover animation on contact me button          --------------------------- */
+
+
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -186,7 +195,7 @@ a {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
-} */
+}
 
 /* body {
   overflow: hidden;
