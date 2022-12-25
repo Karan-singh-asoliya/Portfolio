@@ -44,7 +44,7 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #11999e;
+  color: #66bfbf;
 }
 
 p {
@@ -160,9 +160,9 @@ a {
   margin-right: 50px;
 }
 
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+/* .btn { */
+/* background: #11cdd4; */
+/* background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
@@ -175,8 +175,9 @@ a {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-}
+} */
 
+/* 
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -185,12 +186,16 @@ a {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
-}
+} */
 
 /* body {
   overflow: hidden;
   background-color: #ae7af3;
 } */
+
+#wrapperload .elem h3 {
+  color: #66fcf1;
+}
 
 #loader {
   display: flex;
@@ -203,7 +208,7 @@ a {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background-color: #66bfbf;
+  background-color: #1f2833;
   animation: anim2 1s cubic-bezier(0.19, 1, 0.22, 1) 7s both;
 }
 
@@ -211,7 +216,7 @@ a {
   width: 500px;
   height: 100px;
   overflow: hidden;
-  background-color: #66bfbf;
+  background-color: #1f2833;
 }
 
 #wrapperload .elem {
