@@ -62,7 +62,7 @@ hr {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 70px;
-  height: 90vh;
+  height: 93vh;
   /* background-image: url("Images/mountain2.jpg"); */
 }
 
@@ -105,6 +105,10 @@ a {
   color: #070708;
 }
 
+.skills {
+  margin-bottom: 100px;
+}
+
 .skill-row {
   width: 50%;
   margin: 120px auto 100px auto;
@@ -115,37 +119,37 @@ a {
 .dsa {
   width: 25%;
   float: left;
-  margin-right: 50px;
+  margin-right: 300px;
 }
 
 .oops {
   width: 25%;
   float: right;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
 .cpp {
   width: 25%;
   float: left;
-  margin-right: 50px;
+  margin-right: 200px;
 }
 
 .html {
   width: 25%;
   float: right;
-  margin-left: 50px;
+  margin-left: 300px;
 }
 
 .iot {
   width: 25%;
   float: left;
-  margin-right: 50px;
+  margin-right: 300px;
 }
 
 .blender {
   width: 25%;
   float: right;
-  margin-left: 50px;
+  margin-left: 300px;
 }
 
 .sams {
