@@ -8,6 +8,7 @@ import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
+  console.log("[v0] Portfolio page rendering");
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
