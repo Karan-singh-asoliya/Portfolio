@@ -4,11 +4,11 @@ import { About } from "@/components/about";
 import { Experience } from "@/components/experience";
 import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
+import { Hobbies } from "@/components/hobbies";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
-  console.log("[v0] Portfolio page rendering");
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
@@ -17,6 +17,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <Skills />
+      <Hobbies />
       <Contact />
       <Footer />
     </main>
